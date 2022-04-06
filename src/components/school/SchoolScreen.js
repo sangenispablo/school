@@ -1,8 +1,9 @@
+import { NavBar } from "../ui/NavBar";
+
 export const SchoolScreen = () => {
-    return (
-      <div>
-        <h1>School Screen</h1>
-      </div>
-    );
-  };
-  
+  return (
+    <>
+      <NavBar />
+    </>
+  );
+};
